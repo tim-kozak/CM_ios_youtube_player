@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92160B3C162D9B0B0049FA8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92160B3B162D9B0B0049FA8F /* UIKit.framework */; };
+		92160B3E162D9B0B0049FA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92160B3D162D9B0B0049FA8F /* Foundation.framework */; };
+		92160B40162D9B0B0049FA8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92160B3F162D9B0B0049FA8F /* CoreGraphics.framework */; };
+		92160B46162D9B0B0049FA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92160B44162D9B0B0049FA8F /* InfoPlist.strings */; };
+		92160B48162D9B0B0049FA8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92160B47162D9B0B0049FA8F /* main.m */; };
+		92160B4C162D9B0B0049FA8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92160B4B162D9B0B0049FA8F /* AppDelegate.m */; };
+		92160B4E162D9B0B0049FA8F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 92160B4D162D9B0B0049FA8F /* Default.png */; };
+		92160B50162D9B0B0049FA8F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92160B4F162D9B0B0049FA8F /* Default@2x.png */; };
+		92160B52162D9B0B0049FA8F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92160B51162D9B0B0049FA8F /* Default-568h@2x.png */; };
+		92160B55162D9B0B0049FA8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92160B54162D9B0B0049FA8F /* ViewController.m */; };
+		92160B58162D9B0B0049FA8F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92160B56162D9B0B0049FA8F /* ViewController.xib */; };
+		92160B60162D9B2B0049FA8F /* CMYoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92160B5F162D9B2B0049FA8F /* CMYoutubeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92160B37162D9B0B0049FA8F /* CM_ios_youtube_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CM_ios_youtube_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92160B3B162D9B0B0049FA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92160B3D162D9B0B0049FA8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92160B3F162D9B0B0049FA8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92160B43162D9B0B0049FA8F /* CM_ios_youtube_player-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CM_ios_youtube_player-Info.plist"; sourceTree = "<group>"; };
+		92160B45162D9B0B0049FA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92160B47162D9B0B0049FA8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92160B49162D9B0B0049FA8F /* CM_ios_youtube_player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CM_ios_youtube_player-Prefix.pch"; sourceTree = "<group>"; };
+		92160B4A162D9B0B0049FA8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92160B4B162D9B0B0049FA8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92160B4D162D9B0B0049FA8F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		92160B4F162D9B0B0049FA8F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		92160B51162D9B0B0049FA8F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		92160B53162D9B0B0049FA8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92160B54162D9B0B0049FA8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92160B57162D9B0B0049FA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		92160B5E162D9B2B0049FA8F /* CMYoutubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMYoutubeView.h; sourceTree = "<group>"; };
+		92160B5F162D9B2B0049FA8F /* CMYoutubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMYoutubeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92160B34162D9B0B0049FA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92160B3C162D9B0B0049FA8F /* UIKit.framework in Frameworks */,
+				92160B3E162D9B0B0049FA8F /* Foundation.framework in Frameworks */,
+				92160B40162D9B0B0049FA8F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92160B2C162D9B0B0049FA8F = {
+			isa = PBXGroup;
+			children = (
+				92160B41162D9B0B0049FA8F /* CM_ios_youtube_player */,
+				92160B3A162D9B0B0049FA8F /* Frameworks */,
+				92160B38162D9B0B0049FA8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92160B38162D9B0B0049FA8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92160B37162D9B0B0049FA8F /* CM_ios_youtube_player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92160B3A162D9B0B0049FA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92160B3B162D9B0B0049FA8F /* UIKit.framework */,
+				92160B3D162D9B0B0049FA8F /* Foundation.framework */,
+				92160B3F162D9B0B0049FA8F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92160B41162D9B0B0049FA8F /* CM_ios_youtube_player */ = {
+			isa = PBXGroup;
+			children = (
+				92160B4A162D9B0B0049FA8F /* AppDelegate.h */,
+				92160B4B162D9B0B0049FA8F /* AppDelegate.m */,
+				92160B53162D9B0B0049FA8F /* ViewController.h */,
+				92160B54162D9B0B0049FA8F /* ViewController.m */,
+				92160B56162D9B0B0049FA8F /* ViewController.xib */,
+				92160B5E162D9B2B0049FA8F /* CMYoutubeView.h */,
+				92160B5F162D9B2B0049FA8F /* CMYoutubeView.m */,
+				92160B42162D9B0B0049FA8F /* Supporting Files */,
+			);
+			path = CM_ios_youtube_player;
+			sourceTree = "<group>";
+		};
+		92160B42162D9B0B0049FA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92160B43162D9B0B0049FA8F /* CM_ios_youtube_player-Info.plist */,
+				92160B44162D9B0B0049FA8F /* InfoPlist.strings */,
+				92160B47162D9B0B0049FA8F /* main.m */,
+				92160B49162D9B0B0049FA8F /* CM_ios_youtube_player-Prefix.pch */,
+				92160B4D162D9B0B0049FA8F /* Default.png */,
+				92160B4F162D9B0B0049FA8F /* Default@2x.png */,
+				92160B51162D9B0B0049FA8F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92160B36162D9B0B0049FA8F /* CM_ios_youtube_player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92160B5B162D9B0B0049FA8F /* Build configuration list for PBXNativeTarget "CM_ios_youtube_player" */;
+			buildPhases = (
+				92160B33162D9B0B0049FA8F /* Sources */,
+				92160B34162D9B0B0049FA8F /* Frameworks */,
+				92160B35162D9B0B0049FA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CM_ios_youtube_player;
+			productName = CM_ios_youtube_player;
+			productReference = 92160B37162D9B0B0049FA8F /* CM_ios_youtube_player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92160B2E162D9B0B0049FA8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = comonitos;
+			};
+			buildConfigurationList = 92160B31162D9B0B0049FA8F /* Build configuration list for PBXProject "CM_ios_youtube_player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92160B2C162D9B0B0049FA8F;
+			productRefGroup = 92160B38162D9B0B0049FA8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92160B36162D9B0B0049FA8F /* CM_ios_youtube_player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92160B35162D9B0B0049FA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92160B46162D9B0B0049FA8F /* InfoPlist.strings in Resources */,
+				92160B4E162D9B0B0049FA8F /* Default.png in Resources */,
+				92160B50162D9B0B0049FA8F /* Default@2x.png in Resources */,
+				92160B52162D9B0B0049FA8F /* Default-568h@2x.png in Resources */,
+				92160B58162D9B0B0049FA8F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92160B33162D9B0B0049FA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92160B48162D9B0B0049FA8F /* main.m in Sources */,
+				92160B4C162D9B0B0049FA8F /* AppDelegate.m in Sources */,
+				92160B55162D9B0B0049FA8F /* ViewController.m in Sources */,
+				92160B60162D9B2B0049FA8F /* CMYoutubeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92160B44162D9B0B0049FA8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92160B45162D9B0B0049FA8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92160B56162D9B0B0049FA8F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92160B57162D9B0B0049FA8F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92160B59162D9B0B0049FA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92160B5A162D9B0B0049FA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92160B5C162D9B0B0049FA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CM_ios_youtube_player/CM_ios_youtube_player-Prefix.pch";
+				INFOPLIST_FILE = "CM_ios_youtube_player/CM_ios_youtube_player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92160B5D162D9B0B0049FA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CM_ios_youtube_player/CM_ios_youtube_player-Prefix.pch";
+				INFOPLIST_FILE = "CM_ios_youtube_player/CM_ios_youtube_player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92160B31162D9B0B0049FA8F /* Build configuration list for PBXProject "CM_ios_youtube_player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92160B59162D9B0B0049FA8F /* Debug */,
+				92160B5A162D9B0B0049FA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92160B5B162D9B0B0049FA8F /* Build configuration list for PBXNativeTarget "CM_ios_youtube_player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92160B5C162D9B0B0049FA8F /* Debug */,
+				92160B5D162D9B0B0049FA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92160B2E162D9B0B0049FA8F /* Project object */;
+}
